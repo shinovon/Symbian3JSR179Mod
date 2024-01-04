@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+<storageModule buildFromInf="true" buildingTestComps="true" cleanLevel="0" concurrentBuildJobs="4" defaultMMPChangedAction="0" extraSBSv2Args="" infBuildComponents="" infFileLocation="group/bld.inf" macrosFile="" makeEngineToUse="make" manageDependencies="true" moduleId="com.nokia.carbide.cdt.builder.carbideCPPBuilder" overrideMakeEngine="false" overrideWorkspaceSettings="false" promptForMMPChangedAction="false" useConcurrentBuilding="true" useDebugMode="false" useIncrementalBuilder="false" useKeepGoing="false" useMMPMacros="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.settings">
+<cconfiguration id="Emulator Debug (WINSCW) [Nokia_Symbian3_SDK_v1.0]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Emulator Debug (WINSCW) [Nokia_Symbian3_SDK_v1.0]" moduleId="org.eclipse.cdt.core.settings" name="Emulator Debug (WINSCW) [Nokia_Symbian3_SDK_v1.0]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MWLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MWCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="G:\Nokia\Devices\Nokia_Symbian3_SDK_v1.0\epoc32\rom\"/>
+</storageModule>
+<storageModule filesCache="G:\carbide_workspace\javalocationpatched\group\javalocationpatched.mmp;G:\carbide_workspace\javalocationpatched\group\bld.inf;" includesCache="G:/carbide_workspace/javalocationpatched/group[LOCAL];G:/carbide_workspace/javalocationpatched/common/inc;G:/carbide_workspace/javalocationpatched/orientation/inc;G:/carbide_workspace/javalocationpatched/landmarks/inc;G:/carbide_workspace/javalocationpatched/position/inc;G:/carbide_workspace/inc;G:/carbide_workspace/javalocationpatched/inc;G:/carbide_workspace/javalocationpatched/common/src;G:/carbide_workspace/javalocationpatched/orientation/src;G:/carbide_workspace/javalocationpatched/landmarks/src;G:/carbide_workspace/javalocationpatched/position/src;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/stdapis/stlportv5;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/mw;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/platform;G:/carbide_workspace/javalocationpatched/group;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/oem;" macrosCache="__DLL__;RD_JAVA_HTTP_EMC_ENABLED;__WINSCW__;RD_JAVA_S60_RELEASE_5_0_ONWARDS;RD_JAVA_SYMBIAN_TARGET;RD_JAVA_PIM_MULTICAL_ENABLED;__CW32__;UNICODE;J9EPOC32;_UNICODE;RD_JAVA_EPOCALLOWDLLDATA_FIX;RD_JAVA_PREWARM;__SUPPORT_CPP_EXCEPTIONS__;RD_JAVA_INSTALLERUI_ENABLED;__SYMBIAN_STDCPP_SUPPORT__;RD_JAVA_STDCPPV5;RD_JAVA_PROXIMITY_LISTENER_ENABLED;RD_JAVA_ADVANCED_TACTILE_FEEDBACK;__SYMBIAN32__;QT_KEYPAD_NAVIGATION;RD_JAVA_S60_RELEASE_9_2_ONWARDS;RD_JAVA_NGA_ENABLED;RD_JAVA_OPENC_BETA_PATCH;QT_USE_MATH_H_FLOATS;RD_JAVA_S60_RELEASE_9_2;__WINS__;RD_JAVA_MIDPRMS_DB;QT_SOFTKEYS_ENABLED;_DEBUG;" moduleId="configDataCache" sourcesCache="/javalocationpatched/common/inc;/javalocationpatched/common/src;/javalocationpatched/group;/javalocationpatched/inc;/javalocationpatched/landmarks/inc;/javalocationpatched/landmarks/src;/javalocationpatched/orientation/inc;/javalocationpatched/orientation/src;/javalocationpatched/position/inc;/javalocationpatched/position/src;/javalocationpatched/src;" timestampCache="1704380208401" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cconfiguration>
+<cconfiguration id="Phone Debug (ARMV5_ABIV1) [Nokia_Symbian3_SDK_v1.0]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Debug (ARMV5_ABIV1) [Nokia_Symbian3_SDK_v1.0]" moduleId="org.eclipse.cdt.core.settings" name="Phone Debug (ARMV5_ABIV1) [Nokia_Symbian3_SDK_v1.0]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTLinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTCompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="G:\Nokia\Devices\Nokia_Symbian3_SDK_v1.0\epoc32\rom\"/>
+</storageModule>
+<storageModule filesCache="G:\carbide_workspace\javalocationpatched\group\javalocationpatched.mmp;G:\carbide_workspace\javalocationpatched\group\bld.inf;" includesCache="G:/carbide_workspace/javalocationpatched/group[LOCAL];G:/carbide_workspace/javalocationpatched/common/inc;G:/carbide_workspace/javalocationpatched/orientation/inc;G:/carbide_workspace/javalocationpatched/landmarks/inc;G:/carbide_workspace/javalocationpatched/position/inc;G:/carbide_workspace/inc;G:/carbide_workspace/javalocationpatched/inc;G:/carbide_workspace/javalocationpatched/common/src;G:/carbide_workspace/javalocationpatched/orientation/src;G:/carbide_workspace/javalocationpatched/landmarks/src;G:/carbide_workspace/javalocationpatched/position/src;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/stdapis/stlportv5;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/mw;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/platform;G:/carbide_workspace/javalocationpatched/group;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/oem;" macrosCache="__DLL__;__ARMV5_ABIV1__;RD_JAVA_HTTP_EMC_ENABLED;__ARMCC_2_2__;RD_JAVA_S60_RELEASE_5_0_ONWARDS;RD_JAVA_SYMBIAN_TARGET;RD_JAVA_PIM_MULTICAL_ENABLED;UNICODE;__EABI__;J9EPOC32;_UNICODE;RD_JAVA_EPOCALLOWDLLDATA_FIX;RD_JAVA_PREWARM;__SUPPORT_CPP_EXCEPTIONS__;RD_JAVA_INSTALLERUI_ENABLED;__SYMBIAN_STDCPP_SUPPORT__;RD_JAVA_STDCPPV5;RD_JAVA_PROXIMITY_LISTENER_ENABLED;RD_JAVA_ADVANCED_TACTILE_FEEDBACK;__ARMCC__;__SYMBIAN32__;QT_KEYPAD_NAVIGATION;RD_JAVA_OPENC_BETA_PATCH;RD_JAVA_S60_RELEASE_9_2_ONWARDS;RD_JAVA_NGA_ENABLED;__MARM__;QT_USE_MATH_H_FLOATS;RD_JAVA_S60_RELEASE_9_2;__EPOC32__;RD_JAVA_MIDPRMS_DB;QT_SOFTKEYS_ENABLED;_DEBUG;" moduleId="configDataCache" sourcesCache="/javalocationpatched/common/inc;/javalocationpatched/common/src;/javalocationpatched/group;/javalocationpatched/inc;/javalocationpatched/landmarks/inc;/javalocationpatched/landmarks/src;/javalocationpatched/orientation/inc;/javalocationpatched/orientation/src;/javalocationpatched/position/inc;/javalocationpatched/position/src;/javalocationpatched/src;" timestampCache="1704380208414" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cconfiguration>
+<cconfiguration id="Phone Release (ARMV5_ABIV1) [Nokia_Symbian3_SDK_v1.0]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Release (ARMV5_ABIV1) [Nokia_Symbian3_SDK_v1.0]" moduleId="org.eclipse.cdt.core.settings" name="Phone Release (ARMV5_ABIV1) [Nokia_Symbian3_SDK_v1.0]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTLinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTCompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="G:\Nokia\Devices\Nokia_Symbian3_SDK_v1.0\epoc32\rom\"/>
+</storageModule>
+<storageModule filesCache="G:\carbide_workspace\javalocationpatched\group\javalocationpatched.mmp;G:\carbide_workspace\javalocationpatched\group\bld.inf;" includesCache="G:/carbide_workspace/javalocationpatched/group[LOCAL];G:/carbide_workspace/javalocationpatched/common/inc;G:/carbide_workspace/javalocationpatched/orientation/inc;G:/carbide_workspace/javalocationpatched/landmarks/inc;G:/carbide_workspace/javalocationpatched/position/inc;G:/carbide_workspace/inc;G:/carbide_workspace/javalocationpatched/inc;G:/carbide_workspace/javalocationpatched/common/src;G:/carbide_workspace/javalocationpatched/orientation/src;G:/carbide_workspace/javalocationpatched/landmarks/src;G:/carbide_workspace/javalocationpatched/position/src;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/stdapis/stlportv5;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/mw;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/platform;G:/carbide_workspace/javalocationpatched/group;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/oem;" macrosCache="__DLL__;NDEBUG;__ARMV5_ABIV1__;RD_JAVA_HTTP_EMC_ENABLED;__ARMCC_2_2__;RD_JAVA_S60_RELEASE_5_0_ONWARDS;RD_JAVA_SYMBIAN_TARGET;RD_JAVA_PIM_MULTICAL_ENABLED;UNICODE;__EABI__;J9EPOC32;_UNICODE;RD_JAVA_EPOCALLOWDLLDATA_FIX;RD_JAVA_PREWARM;__SUPPORT_CPP_EXCEPTIONS__;RD_JAVA_INSTALLERUI_ENABLED;__SYMBIAN_STDCPP_SUPPORT__;RD_JAVA_STDCPPV5;RD_JAVA_PROXIMITY_LISTENER_ENABLED;RD_JAVA_ADVANCED_TACTILE_FEEDBACK;__ARMCC__;__SYMBIAN32__;QT_KEYPAD_NAVIGATION;RD_JAVA_OPENC_BETA_PATCH;RD_JAVA_S60_RELEASE_9_2_ONWARDS;RD_JAVA_NGA_ENABLED;__MARM__;QT_USE_MATH_H_FLOATS;RD_JAVA_S60_RELEASE_9_2;__EPOC32__;RD_JAVA_MIDPRMS_DB;QT_SOFTKEYS_ENABLED;" moduleId="configDataCache" sourcesCache="/javalocationpatched/common/inc;/javalocationpatched/common/src;/javalocationpatched/group;/javalocationpatched/inc;/javalocationpatched/landmarks/inc;/javalocationpatched/landmarks/src;/javalocationpatched/orientation/inc;/javalocationpatched/orientation/src;/javalocationpatched/position/inc;/javalocationpatched/position/src;/javalocationpatched/src;" timestampCache="1704380208426" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cconfiguration>
+<cconfiguration id="Phone Debug (ARMV5) [Nokia_Symbian3_SDK_v1.0]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Debug (ARMV5) [Nokia_Symbian3_SDK_v1.0]" moduleId="org.eclipse.cdt.core.settings" name="Phone Debug (ARMV5) [Nokia_Symbian3_SDK_v1.0]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTLinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTCompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="G:\Nokia\Devices\Nokia_Symbian3_SDK_v1.0\epoc32\rom\"/>
+</storageModule>
+<storageModule filesCache="G:\carbide_workspace\javalocationpatched\group\javalocationpatched.mmp;G:\carbide_workspace\javalocationpatched\group\bld.inf;" includesCache="G:/carbide_workspace/javalocationpatched/group[LOCAL];G:/carbide_workspace/javalocationpatched/common/inc;G:/carbide_workspace/javalocationpatched/orientation/inc;G:/carbide_workspace/javalocationpatched/landmarks/inc;G:/carbide_workspace/javalocationpatched/position/inc;G:/carbide_workspace/inc;G:/carbide_workspace/javalocationpatched/inc;G:/carbide_workspace/javalocationpatched/common/src;G:/carbide_workspace/javalocationpatched/orientation/src;G:/carbide_workspace/javalocationpatched/landmarks/src;G:/carbide_workspace/javalocationpatched/position/src;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/stdapis/stlportv5;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/mw;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/platform;G:/carbide_workspace/javalocationpatched/group;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/oem;" macrosCache="__DLL__;RD_JAVA_HTTP_EMC_ENABLED;__ARMCC_2_2__;RD_JAVA_S60_RELEASE_5_0_ONWARDS;RD_JAVA_SYMBIAN_TARGET;RD_JAVA_PIM_MULTICAL_ENABLED;__GENERIC_MARM__;UNICODE;__EABI__;J9EPOC32;_UNICODE;RD_JAVA_EPOCALLOWDLLDATA_FIX;RD_JAVA_PREWARM;__SUPPORT_CPP_EXCEPTIONS__;RD_JAVA_INSTALLERUI_ENABLED;__SYMBIAN_STDCPP_SUPPORT__;__MARM_ARMV5__;RD_JAVA_PROXIMITY_LISTENER_ENABLED;RD_JAVA_STDCPPV5;RD_JAVA_ADVANCED_TACTILE_FEEDBACK;__ARMCC__;__SYMBIAN32__;QT_KEYPAD_NAVIGATION;RD_JAVA_OPENC_BETA_PATCH;RD_JAVA_NGA_ENABLED;RD_JAVA_S60_RELEASE_9_2_ONWARDS;__MARM__;QT_USE_MATH_H_FLOATS;RD_JAVA_S60_RELEASE_9_2;__ARMCC_2__;__EPOC32__;RD_JAVA_MIDPRMS_DB;QT_SOFTKEYS_ENABLED;_DEBUG;" moduleId="configDataCache" sourcesCache="/javalocationpatched/common/inc;/javalocationpatched/common/src;/javalocationpatched/group;/javalocationpatched/inc;/javalocationpatched/landmarks/inc;/javalocationpatched/landmarks/src;/javalocationpatched/orientation/inc;/javalocationpatched/orientation/src;/javalocationpatched/position/inc;/javalocationpatched/position/src;/javalocationpatched/src;" timestampCache="1704380208436" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cconfiguration>
+<cconfiguration id="Phone Release (ARMV5) [Nokia_Symbian3_SDK_v1.0]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Release (ARMV5) [Nokia_Symbian3_SDK_v1.0]" moduleId="org.eclipse.cdt.core.settings" name="Phone Release (ARMV5) [Nokia_Symbian3_SDK_v1.0]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTLinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RVCTCompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="G:\Nokia\Devices\Nokia_Symbian3_SDK_v1.0\epoc32\rom\"/>
+</storageModule>
+<storageModule filesCache="G:\carbide_workspace\javalocationpatched\group\javalocationpatched.mmp;G:\carbide_workspace\javalocationpatched\group\bld.inf;" includesCache="G:/carbide_workspace/javalocationpatched/group[LOCAL];G:/carbide_workspace/javalocationpatched/common/inc;G:/carbide_workspace/javalocationpatched/orientation/inc;G:/carbide_workspace/javalocationpatched/landmarks/inc;G:/carbide_workspace/javalocationpatched/position/inc;G:/carbide_workspace/inc;G:/carbide_workspace/javalocationpatched/inc;G:/carbide_workspace/javalocationpatched/common/src;G:/carbide_workspace/javalocationpatched/orientation/src;G:/carbide_workspace/javalocationpatched/landmarks/src;G:/carbide_workspace/javalocationpatched/position/src;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/stdapis/stlportv5;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/mw;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/platform;G:/carbide_workspace/javalocationpatched/group;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/oem;" macrosCache="__DLL__;NDEBUG;RD_JAVA_HTTP_EMC_ENABLED;__ARMCC_2_2__;RD_JAVA_S60_RELEASE_5_0_ONWARDS;RD_JAVA_SYMBIAN_TARGET;RD_JAVA_PIM_MULTICAL_ENABLED;__GENERIC_MARM__;UNICODE;__EABI__;J9EPOC32;_UNICODE;RD_JAVA_EPOCALLOWDLLDATA_FIX;RD_JAVA_PREWARM;__SUPPORT_CPP_EXCEPTIONS__;RD_JAVA_INSTALLERUI_ENABLED;__SYMBIAN_STDCPP_SUPPORT__;__MARM_ARMV5__;RD_JAVA_PROXIMITY_LISTENER_ENABLED;RD_JAVA_STDCPPV5;RD_JAVA_ADVANCED_TACTILE_FEEDBACK;__ARMCC__;__SYMBIAN32__;QT_KEYPAD_NAVIGATION;RD_JAVA_OPENC_BETA_PATCH;RD_JAVA_NGA_ENABLED;RD_JAVA_S60_RELEASE_9_2_ONWARDS;__MARM__;QT_USE_MATH_H_FLOATS;RD_JAVA_S60_RELEASE_9_2;__ARMCC_2__;__EPOC32__;RD_JAVA_MIDPRMS_DB;QT_SOFTKEYS_ENABLED;" moduleId="configDataCache" sourcesCache="/javalocationpatched/common/inc;/javalocationpatched/common/src;/javalocationpatched/group;/javalocationpatched/inc;/javalocationpatched/landmarks/inc;/javalocationpatched/landmarks/src;/javalocationpatched/orientation/inc;/javalocationpatched/orientation/src;/javalocationpatched/position/inc;/javalocationpatched/position/src;/javalocationpatched/src;" timestampCache="1704380208449" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cconfiguration>
+<cconfiguration id="Phone Debug (GCCE) [Nokia_Symbian3_SDK_v1.0]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Debug (GCCE) [Nokia_Symbian3_SDK_v1.0]" moduleId="org.eclipse.cdt.core.settings" name="Phone Debug (GCCE) [Nokia_Symbian3_SDK_v1.0]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCECompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCEAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="G:\Nokia\Devices\Nokia_Symbian3_SDK_v1.0\epoc32\rom\"/>
+</storageModule>
+<storageModule filesCache="G:\carbide_workspace\javalocationpatched\group\javalocationpatched.mmp;G:\carbide_workspace\javalocationpatched\group\bld.inf;" includesCache="G:/carbide_workspace/javalocationpatched/group[LOCAL];G:/carbide_workspace/javalocationpatched/common/inc;G:/carbide_workspace/javalocationpatched/orientation/inc;G:/carbide_workspace/javalocationpatched/landmarks/inc;G:/carbide_workspace/javalocationpatched/position/inc;G:/carbide_workspace/inc;G:/carbide_workspace/javalocationpatched/inc;G:/carbide_workspace/javalocationpatched/common/src;G:/carbide_workspace/javalocationpatched/orientation/src;G:/carbide_workspace/javalocationpatched/landmarks/src;G:/carbide_workspace/javalocationpatched/position/src;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/stdapis/stlportv5;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/mw;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/platform;G:/carbide_workspace/javalocationpatched/group;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/oem;" macrosCache="__DLL__;RD_JAVA_HTTP_EMC_ENABLED;RD_JAVA_S60_RELEASE_5_0_ONWARDS;__GCCE__;RD_JAVA_SYMBIAN_TARGET;RD_JAVA_PIM_MULTICAL_ENABLED;__GENERIC_MARM__;UNICODE;__EABI__;J9EPOC32;_UNICODE;RD_JAVA_EPOCALLOWDLLDATA_FIX;RD_JAVA_PREWARM;__SUPPORT_CPP_EXCEPTIONS__;RD_JAVA_INSTALLERUI_ENABLED;__SYMBIAN_STDCPP_SUPPORT__;__MARM_ARMV5__;RD_JAVA_STDCPPV5;RD_JAVA_PROXIMITY_LISTENER_ENABLED;RD_JAVA_ADVANCED_TACTILE_FEEDBACK;__SYMBIAN32__;QT_KEYPAD_NAVIGATION;RD_JAVA_OPENC_BETA_PATCH;RD_JAVA_S60_RELEASE_9_2_ONWARDS;RD_JAVA_NGA_ENABLED;__MARM__;QT_USE_MATH_H_FLOATS;RD_JAVA_S60_RELEASE_9_2;__EPOC32__;RD_JAVA_MIDPRMS_DB;QT_SOFTKEYS_ENABLED;_DEBUG;" moduleId="configDataCache" sourcesCache="/javalocationpatched/common/inc;/javalocationpatched/common/src;/javalocationpatched/group;/javalocationpatched/inc;/javalocationpatched/landmarks/inc;/javalocationpatched/landmarks/src;/javalocationpatched/orientation/inc;/javalocationpatched/orientation/src;/javalocationpatched/position/inc;/javalocationpatched/position/src;/javalocationpatched/src;" timestampCache="1704380208460" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cconfiguration>
+<cconfiguration id="Phone Release (GCCE) [Nokia_Symbian3_SDK_v1.0]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Release (GCCE) [Nokia_Symbian3_SDK_v1.0]" moduleId="org.eclipse.cdt.core.settings" name="Phone Release (GCCE) [Nokia_Symbian3_SDK_v1.0]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCECompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCEAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="G:\Nokia\Devices\Nokia_Symbian3_SDK_v1.0\epoc32\rom\"/>
+</storageModule>
+<storageModule filesCache="G:\carbide_workspace\javalocationpatched\group\javalocationpatched.mmp;G:\carbide_workspace\javalocationpatched\group\bld.inf;" includesCache="G:/carbide_workspace/javalocationpatched/group[LOCAL];G:/carbide_workspace/javalocationpatched/common/inc;G:/carbide_workspace/javalocationpatched/orientation/inc;G:/carbide_workspace/javalocationpatched/landmarks/inc;G:/carbide_workspace/javalocationpatched/position/inc;G:/carbide_workspace/inc;G:/carbide_workspace/javalocationpatched/inc;G:/carbide_workspace/javalocationpatched/common/src;G:/carbide_workspace/javalocationpatched/orientation/src;G:/carbide_workspace/javalocationpatched/landmarks/src;G:/carbide_workspace/javalocationpatched/position/src;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/stdapis/stlportv5;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/mw;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/platform;G:/carbide_workspace/javalocationpatched/group;G:/Nokia/Devices/Nokia_Symbian3_SDK_v1.0/epoc32/include/oem;" macrosCache="__DLL__;NDEBUG;RD_JAVA_HTTP_EMC_ENABLED;RD_JAVA_S60_RELEASE_5_0_ONWARDS;__GCCE__;RD_JAVA_SYMBIAN_TARGET;RD_JAVA_PIM_MULTICAL_ENABLED;__GENERIC_MARM__;UNICODE;__EABI__;J9EPOC32;_UNICODE;RD_JAVA_EPOCALLOWDLLDATA_FIX;RD_JAVA_PREWARM;__SUPPORT_CPP_EXCEPTIONS__;RD_JAVA_INSTALLERUI_ENABLED;__SYMBIAN_STDCPP_SUPPORT__;__MARM_ARMV5__;RD_JAVA_STDCPPV5;RD_JAVA_PROXIMITY_LISTENER_ENABLED;RD_JAVA_ADVANCED_TACTILE_FEEDBACK;__SYMBIAN32__;QT_KEYPAD_NAVIGATION;RD_JAVA_OPENC_BETA_PATCH;RD_JAVA_S60_RELEASE_9_2_ONWARDS;RD_JAVA_NGA_ENABLED;__MARM__;QT_USE_MATH_H_FLOATS;RD_JAVA_S60_RELEASE_9_2;__EPOC32__;RD_JAVA_MIDPRMS_DB;QT_SOFTKEYS_ENABLED;" moduleId="configDataCache" sourcesCache="/javalocationpatched/common/inc;/javalocationpatched/common/src;/javalocationpatched/group;/javalocationpatched/inc;/javalocationpatched/landmarks/inc;/javalocationpatched/landmarks/src;/javalocationpatched/orientation/inc;/javalocationpatched/orientation/src;/javalocationpatched/position/inc;/javalocationpatched/position/src;/javalocationpatched/src;" timestampCache="1704380208473" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cconfiguration>
+</storageModule>
+</cproject>
