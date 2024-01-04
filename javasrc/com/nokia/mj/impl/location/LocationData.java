@@ -115,11 +115,11 @@ public final class LocationData extends Location
         {
             return iExtraInfo;
         }
-        if ("satelliteNumInView".equals(mimetype))
+        if ("satelliteNumInView".equals(mimetype) && satellitesInView >= 0)
         {
             return Integer.toString(satellitesInView);
         }
-        if ("satelliteNumUsed".equals(mimetype))
+        if ("satelliteNumUsed".equals(mimetype) && satellitesUsed >= 0)
         {
             return Integer.toString(satellitesUsed);
         }
