@@ -137,14 +137,12 @@ void CPositionerBase::GetQualifiedCoordinates(CPositionerBase* aSelf,
         JNIEnv* aJni, jdouble* alatlon, jfloat* aAltHaccVacc,
         jlong* aTimestamp, jobjectArray aNmeaData)
 {
-	ELOG(EJavaFile, "GetQualifiedCoordinates");
     JELOG2(EJavaLocation);
 
     HPositionGenericInfo* posInfo = aSelf->iPositionInfo;
 
     const TInt KMaxNmeaSentenceLength = 82;
     TUint8 numNmeaSentences(0);
-	ELOG(EJavaFile, "getnmea");
     if (posInfo->GetValue(EPositionFieldNMEASentences, numNmeaSentences)
             == KErrNone)
     {
@@ -172,7 +170,6 @@ void CPositionerBase::GetQualifiedCoordinates(CPositionerBase* aSelf,
             delete nmeaData;
         }
     }
-	ELOG(EJavaFile, "getpos");
     TPosition pos;
     posInfo->GetPosition(pos);
 
@@ -183,13 +180,11 @@ void CPositionerBase::GetQualifiedCoordinates(CPositionerBase* aSelf,
     aAltHaccVacc[2] = static_cast<jfloat>(pos.VerticalAccuracy());
 
     *aTimestamp = java::util::S60CommonUtils::TTimeToJavaTime(pos.Time());
-	ELOG(EJavaFile, "q done");
 }
 
 void CPositionerBase::GetSatelliteData(CPositionerBase* aSelf,
         JNIEnv* aJni, jint* aSatellites)
 {
-	ELOG(EJavaFile, "GetSatelliteData");
     HPositionGenericInfo* posInfo = aSelf->iPositionInfo;
     TInt8 numInView(0);
     if(posInfo->GetValue(EPositionFieldSatelliteNumInView, numInView) == KErrNone) {
@@ -204,7 +199,6 @@ void CPositionerBase::GetSatelliteData(CPositionerBase* aSelf,
 	} else {
 		aSatellites[1] = -1;
 	}
-	ELOG(EJavaFile, "s done");
 }
 
 // -----------------------------------------------------------------------------
